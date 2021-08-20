@@ -143,6 +143,14 @@ p {
 #header .nav-list ul li:hover a {
     color: crimson;
 }
+#header .nav-list ul a span {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    color: red;
+
+    
+}
 #header .hamburger {
     height: 60px;
     width: 60px;
