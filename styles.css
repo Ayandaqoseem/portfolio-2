@@ -1,0 +1,182 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgb(23, 35, 58), rgb(46, 18, 54), rgb(49, 42, 26), rgb(14, 20, 32));
+    height: 150vh;
+}
+.clearfix {clear: both;}
+
+.resume-box {
+  width: 800px;
+  height: 1250px;
+  margin: 0 auto;
+  background-color:burlywood;  
+}
+.box-outer {
+    padding: 30px;
+}
+.box-1 {
+    background-color: #26252d;
+    width: 35%;
+    float: left;
+    height: 1250px;
+}
+.box-2 {
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+.profile {
+    width: 100%;
+}
+.content {
+    padding: 20px;
+}
+h1 {
+    color: #ceced1;
+    font-family: system-ui;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+p {
+    color: #ceced1;
+    font-family: system-ui;
+    font-weight: 300;
+    font-size: 14px;
+}
+#progress1 {
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+#progress1::after {
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 85%;
+}
+#progress2 {
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+#progress2::after {
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 85%;
+}
+#progress3 {
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+#progress3::after {
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 85%;
+}
+#progress4 {
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+#progress4::after {
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 75%;
+}
+#progress5 {
+    background-color: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+    padding: 3px;
+}
+#progress5::after {
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 75%;
+}
+.intro {
+    text-align: center;
+}
+.intro h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #26252d;
+} 
+.hr {
+    height: 15px;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(78, 46, 31, 0.466), rgba(136, 67, 21, 0.473));
+    margin: -45px 20px;
+}
+.intro-p {
+    columns: #7d7d7d;
+    font-family: system-ui;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 13%!important;
+}
+.intro p {
+    color: #1d1313;
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 15px;
+    margin: -5px;
+}
+.content-2 {
+    padding-top: 40px;
+}
+.head {
+    color: #26252d;
+    font-family: system-ui;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.para-1 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #26252d;
+    font-weight: 800;
+    margin: 5px 0px;
+    margin-top: 10px;
+}
+.para-2 {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #362727;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.para-2 span {
+    font-size: 15px;
+}
+.personal-details {
+    text-transform: lowercase;
+}
